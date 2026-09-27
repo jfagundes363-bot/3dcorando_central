@@ -1,0 +1,6 @@
+{
+  "name": "RENDA 3D — +100 mil arquivos STL para impressão 3D",
+  "description": "Aproximadamente 100 mil arquivos STL prontos para baixar e imprimir, com 4 bônus exclusivos e acesso vitalício.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

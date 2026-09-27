@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <script>
+      // Safeguard against iframe/extension environments trying to assign to window.fetch
+      (function() {
+        try {
+          if (typeof window !== 'undefined') {
+            var _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+            try {
+              Object.defineProperty(window, 'fetch', {
+                get: function() { return _fetch; },
+                set: function(fn) { _fetch = fn; },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (e1) {
+              try {
+                Object.defineProperty(Window.prototype, 'fetch', {
+                  get: function() { return _fetch; },
+                  set: function(fn) { _fetch = fn; },
+                  configurable: true,
+                  enumerable: true
+                });
+              } catch (e2) {}
+            }
+          }
+        } catch (e) {}
+
+        window.addEventListener('error', function(event) {
+          if (event && event.message && event.message.indexOf('fetch') !== -1 && event.message.indexOf('getter') !== -1) {
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            return true;
+          }
+        });
+      })();
+    </script>
+    <title>RENDA 3D — +100 mil arquivos STL para impressão 3D</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/oPst2bO.png" />
+    <link rel="apple-touch-icon" href="https://i.imgur.com/oPst2bO.png" />
+    <meta name="description" content="Aproximadamente 100 mil arquivos STL prontos para baixar e imprimir, com 4 bônus exclusivos e acesso vitalício." />
+    <meta name="theme-color" content="#000000" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content="RENDA 3D — +100 mil arquivos STL para impressão 3D" />
+    <meta property="og:description" content="Aproximadamente 100 mil arquivos STL prontos para baixar e imprimir, com 4 bônus exclusivos e acesso vitalício." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Cabinet+Grotesk:wght@700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1702638391822644');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body class="bg-black text-white font-sans antialiased selection:bg-[#10B981] selection:text-black overflow-x-hidden">
+    <!-- Meta Pixel Noscript Fallback -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1702638391822644&ev=PageView&noscript=1"
+        alt=""
+      />
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
