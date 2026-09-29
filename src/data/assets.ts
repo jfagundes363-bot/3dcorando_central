@@ -1,6 +1,6 @@
 import heroVideoPoster from "../assets/hero_video_poster.jpg";
 export const HERO_VIDEO_POSTER = heroVideoPoster;
-export const HERO_VIDEO_URL = "https://i.imgur.com/Avfhwlr.mp4";
+export const HERO_VIDEO_URL = "https://i.imgur.com/s4u1ec0.mp4";
 
 // High-quality SVG and verified image assets extracted from the landing page
 export const AMAZON_SVG = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35"><path fill="%23FF9900" d="M12 25c15 8 36 8 50 0 2-1 4 2 2 3-16 9-40 9-54 0-2-1 0-4 2-3z"/><path fill="%23FF9900" d="M63 23c-1-1-3-1-3 1 0 2 3 5 5 5 2 0 4-3 4-5 0-2-3-2-5-1l-1 0z"/><text x="8" y="19" font-family="Arial,sans-serif" font-weight="900" font-size="18" fill="white">amazon</text></svg>`;

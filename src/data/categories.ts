@@ -28,34 +28,29 @@ export const CATEGORIES_DATA: CategoryData[] = [
     direction: "left",
     badge: ["Mais Vendidos", "Alta Procura", "Colecionáveis"],
     items: [
-      { id: "pers-2", name: "Guerreiro Lendário", category: "Personagens", image: "https://i.imgur.com/teu3RBq.jpg", tag: "Colecionável", stlSize: "Alta Resolução" },
-      { id: "pers-3", name: "Herói em Ação", category: "Personagens", image: "https://i.imgur.com/H55YmCG.jpg", tag: "Top Vendas", stlSize: "Com Suportes" },
-      { id: "pers-4", name: "Estátua Colecionável", category: "Personagens", image: "https://i.imgur.com/Oj7QuwZ.jpg", tag: "Destaque", stlSize: "FDM & Resina" },
-      { id: "pers-5", name: "Miniatura Detalhada", category: "Personagens", image: "https://i.imgur.com/nDqBGVY.jpg", tag: "Pronto p/ Fatiar", stlSize: "Escala 1:6" },
-      { id: "pers-6", name: "Escultura Épica", category: "Personagens", image: "https://i.imgur.com/L8vLpEk.jpg", tag: "Edição Especial", stlSize: "Base Inclusa" },
-      { id: "pers-7", name: "Personagem Mítico", category: "Personagens", image: "https://i.imgur.com/SOyiZWY.jpg", tag: "Alta Procura", stlSize: "Detalhado" },
-      { id: "pers-9", name: "Guerreiro Fantasia", category: "Personagens", image: "https://i.imgur.com/lDSozEH.jpg", tag: "Novo Modelo", stlSize: "Multi-partes" },
-      { id: "pers-10", name: "Personagem Lendário", category: "Personagens", image: "https://i.imgur.com/XaGMnbf.jpg", tag: "Edição Especial", stlSize: "Alta Resolução" },
-      { id: "pers-11", name: "Personagem Fantasia Épico", category: "Personagens", image: "https://i.imgur.com/fkzCT4v.jpg", tag: "Novo Modelo", stlSize: "Multi-partes" },
-      { id: "pers-12", name: "Guerreiro em Ação", category: "Personagens", image: "https://i.imgur.com/uZ8jJ5F.jpg", tag: "Edição Especial", stlSize: "Alta Resolução" },
-      { id: "pers-13", name: "Personagem Estilizado 3D", category: "Personagens", image: "https://i.imgur.com/qgmlN00.png", tag: "Colecionável", stlSize: "Alta Resolução" }
+      { id: "pers-new-1", name: "Personagem 3D 1", category: "Personagens", image: "https://i.imgur.com/QnUhdId.png", tag: "Colecionável", stlSize: "Alta Resolução" },
+      { id: "pers-new-2", name: "Personagem 3D 2", category: "Personagens", image: "https://i.imgur.com/jWmrYoy.png", tag: "Top Vendas", stlSize: "Com Suportes" },
+      { id: "pers-new-3", name: "Personagem 3D 3", category: "Personagens", image: "https://i.imgur.com/O5v3kIj.png", tag: "Destaque", stlSize: "FDM & Resina" },
+      { id: "pers-new-4", name: "Personagem 3D 4", category: "Personagens", image: "https://i.imgur.com/MthnTLo.png", tag: "Pronto p/ Fatiar", stlSize: "Escala 1:6" },
+      { id: "pers-new-5", name: "Personagem 3D 5", category: "Personagens", image: "https://i.imgur.com/1crpRMj.png", tag: "Edição Especial", stlSize: "Base Inclusa" },
+      { id: "pers-new-6", name: "Personagem 3D 6", category: "Personagens", image: "https://i.imgur.com/2Ct8TKe.png", tag: "Alta Procura", stlSize: "Detalhado" },
+      { id: "pers-new-7", name: "Personagem 3D 7", category: "Personagens", image: "https://i.imgur.com/wpKpDNI.png", tag: "Novo Modelo", stlSize: "Multi-partes" }
     ]
   },
   {
     id: "catolicos",
-    title: "CATÓLICOS",
+    title: "RELIGIÃO",
     niche: "NICHO 02 • ARTE SACRA & DEVOÇÃO",
     subtitle: "Imagens sacras, crucifixos e esculturas religiosas com altíssima margem de lucro",
     speed: "slow",
     direction: "right",
     badge: ["Margem Alta", "Público Fiel", "Alta Resolução"],
     items: [
-      { id: "cat-1", name: "Imagem Sacra Detalhada", category: "Católicos", image: "https://i.imgur.com/48w6dYy.jpg", tag: "Arte Sacra", stlSize: "Alta Resolução" },
-      { id: "cat-2", name: "Escultura Religiosa 3D", category: "Católicos", image: "https://i.imgur.com/vEKc61Z.jpg", tag: "Mais Vendido", stlSize: "FDM & Resina" },
-      { id: "cat-3", name: "Santo Colecionável", category: "Católicos", image: "https://i.imgur.com/oUX45Mb.jpg", tag: "Riqueza de Detalhes", stlSize: "Pronto p/ Fatiar" },
-      { id: "cat-4", name: "Arte Sacra Clássica", category: "Católicos", image: "https://i.imgur.com/0wcKn6i.jpg", tag: "Destaque", stlSize: "Com Suportes" },
-      { id: "cat-5", name: "Escultura Devocional", category: "Católicos", image: "https://i.imgur.com/g9eC09e.jpg", tag: "Exclusivo", stlSize: "Multi-partes" },
-      { id: "cat-6", name: "Figura Sacra Premium", category: "Católicos", image: "https://i.imgur.com/eBLMA95.jpg", tag: "Alta Procura", stlSize: "Escala Realista" }
+      { id: "rel-1", name: "Arte Sacra 1", category: "Religião", image: "https://i.imgur.com/mVBU708.png", tag: "Arte Sacra", stlSize: "Alta Resolução" },
+      { id: "rel-2", name: "Arte Sacra 2", category: "Religião", image: "https://i.imgur.com/VPf4RPO.png", tag: "Mais Vendido", stlSize: "FDM & Resina" },
+      { id: "rel-3", name: "Arte Sacra 3", category: "Religião", image: "https://i.imgur.com/HjBnc6A.png", tag: "Riqueza de Detalhes", stlSize: "Pronto p/ Fatiar" },
+      { id: "rel-4", name: "Arte Sacra 4", category: "Religião", image: "https://i.imgur.com/h3ExSnY.png", tag: "Destaque", stlSize: "Com Suportes" },
+      { id: "rel-5", name: "Arte Sacra 5", category: "Religião", image: "https://i.imgur.com/n9T1nmh.png", tag: "Exclusivo", stlSize: "Multi-partes" }
     ]
   },
   {

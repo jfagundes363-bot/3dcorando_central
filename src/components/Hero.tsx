@@ -54,26 +54,21 @@ export default function Hero({ onSelectPlan: _onSelectPlan }: HeroProps) {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         {/* Main H1 Headline */}
-        <h1 className="font-heading font-black text-2xl xs:text-3xl sm:text-5xl md:text-6xl text-white tracking-tight leading-[1.18] max-w-4xl mb-6 sm:mb-8 text-center px-3 flex flex-col items-center gap-1.5 sm:gap-2.5">
-          <span className="block">
-            Aqui você encontra os melhores arquivos{" "}
-            <span className="text-[#00FF66] font-black">
-              STL
-            </span>
-          </span>
-
-          <span className="text-zinc-200 block text-xl xs:text-2xl sm:text-4xl md:text-5xl font-extrabold">
-            para a sua{" "}
-            <span className="text-[#00FF66] drop-shadow-[0_0_20px_rgba(0,255,102,0.35)]">
-              impressora
-            </span>
-          </span>
-
-          {/* 3D destacado abaixo do texto */}
-          <span className="block mt-1 sm:mt-2">
-            <span className="text-3d font-black text-5xl xs:text-6xl sm:text-7xl md:text-8xl tracking-tight leading-none drop-shadow-[0_0_30px_rgba(0,255,102,0.65)] select-none">
+        <h1 className="font-heading font-black text-white tracking-tight text-center px-3 flex flex-col items-center gap-2.5 sm:gap-3.5 mb-5 sm:mb-7">
+          <span className="block font-premium font-black text-3xl xs:text-4xl sm:text-6xl md:text-7xl uppercase tracking-wider leading-none drop-shadow-[0_4px_30px_rgba(0,0,0,0.9)]">
+            <span className="text-3d font-black tracking-normal mr-0.5 transform -skew-x-3">
               3D
             </span>
+            <span className="text-white drop-shadow-[0_2px_15px_rgba(255,255,255,0.25)]">
+              CORANDO
+            </span>{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-[#00FF66] to-emerald-300 drop-shadow-[0_0_25px_rgba(0,255,102,0.45)]">
+              CENTRAL
+            </span>
+          </span>
+
+          <span className="text-zinc-200 block font-heading font-extrabold text-base xs:text-lg sm:text-2xl md:text-3xl max-w-2xl leading-snug tracking-tight">
+            A central completa que você estava procurando
           </span>
         </h1>
 
